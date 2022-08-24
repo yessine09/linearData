@@ -1,0 +1,66 @@
+Algo tt
+Var
+x=0 : integer;
+s=0 : float;
+t1,t2,t3: array_of integer[10];
+n,y:integer;
+z=0 : integer;
+Begin
+write("donner un tableau");
+read(t1);
+write ("donner un autre tableau");
+read(t2)
+
+for i de 1 a n do
+x:=t1[i];
+s=x+s;
+t3[z]=t1[i];
+z++;
+
+for j de 1 a y do
+if (x != t[j])
+s:=s+x;
+endif;
+t3[z]:=t2[j];
+z++;
+j++;
+endfor;
+i++;
+endfor;
+
+writeln("sum of overlaping elements",  s);
+writeln ("distinc elements", t3
+
+end.
+
+methode2:
+
+Algo tt
+Var
+x=0 : integer;
+s=0 : float;
+t1,t2,t3: array_of integer[10];
+n,y:integer;
+z=0 : integer;
+j=1;
+Begin
+write("donner un tableau");
+read(t1);
+write ("donner un autre tableau");
+read(t2)
+
+
+for i de 1 a n do
+s+=t[i];
+while (t[i]!=t[j])
+s+=t[j];
+j++;
+endwhile;
+i++;
+endfor;
+
+writeln("sum of overlaping elements",  s);
+
+end.
+
+
